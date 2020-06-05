@@ -1,0 +1,48 @@
+@media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+
+    .main{
+        padding: 8rem 0;
+    }
+
+    .main__inner .heading h1{
+        font-size: 2.8rem;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+
+    .main{
+        padding: 5rem 0;
+    }
+
+    .main__inner .heading h1{
+        font-size: 3rem;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+
+    .main{
+        padding: 1rem 0;
+    }
+
+    .main__inner .heading h1{
+        font-size: 3.2rem;
+    }
+
+    .main__inner .image{
+        margin-top: 1.5rem;
+    } 
+}
+
