@@ -6,18 +6,127 @@
     <title>Piyush Nagpal</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <div class="main">
-        <div class="main__inner container">
-            <div class="heading">
-                <h1>Under Construction</h1>
+    <header>
+        <nav class="container">
+            <h1 class="logo">Piyush Nagpal</h1>
+            <button class="hamburger">
+            <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+            <path class="open" d="M4 6h16M4 12h8m-8 6h16"></path>
+            <path class="close" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+            </button>
+            <ul class="menu">
+            <li><a href="#"><i class='fas fa-home'></i>Home</a></li>
+            <li><a href="#"><i class='fas fa-info-circle'></i>About</a></li>
+            <li><a href="#"><i class='fas fa-th'></i>Projects</a></li>
+            <li><a href="#"><i class='fas fa-envelope'></i>Contact</a></li>
+            </ul>
+        </nav>    
+    </header>
+
+    <section class="hero">
+        <div class="hero__inner container">
+            <div class="hero__text">
+                <span class="hello">Hi There</span>
+                <h1 class="headline">I'm <span>Piyush Nagpal</span></h1>
+                <p> Geek, Web-Developer & Future Engineer.
+                </p>
             </div>
-            <div class="image">
-                <img src="images/under_construction.svg" alt="Under Construction">
+            <div class="hero__image">
+                <img src="images/hero__image.svg" alt="Hero">
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="about">
+        <div class="about__inner container">
+            <div class="about__text">
+                <span class="about__title">About</span>
+                <p> In a nutshell, I sit in front of my laptop all day long creating
+                    something.
+                    I am currently pursuing my Bachelors Degree in Computer Science and Engineering
+                    from Chitkara University Institute of Engineering & Technology. 
+                    <br><br>
+                    
+                </p>
+            </div>
+            <div class="about__image">
+                <img src="images/about__image.svg" alt="About">
+            </div>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="projects__inner container">
+            <h1 class="projects__heading">Projects</h1>
+            <div class="cards__container">
+                <div class="card card1">
+                    <div class="heading">
+                        <h1>Portfolio Website</h1>
+                    </div>
+                    <div class="details">
+                        <p>My Portfolio Website where you are probably reading this right now.
+                        </p>
+                    </div>
+                </div>
+                <div class="card card2">
+                    <div class="heading">
+                        <h1>Demo Text</h1>
+                    </div>
+                    <div class="details">
+                        <p>Hopefully will be replaced by something :v
+                        </p>
+                    </div>
+                </div>
+                <div class="card card3">
+                    <div class="heading">
+                        <h1>Demo Text</h1>
+                    </div>
+                    <div class="details">
+                        <p>Hopefully will be replaced by something :v
+                        </p>
+                    </div>
+                </div>
+                <div class="card card4">
+                    <div class="heading">
+                        <h1>Demo Text</h1>
+                    </div>
+                    <div class="details">
+                        <p>Hopefully will be replaced by something :v
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="contact__inner container">
+            <h1 class="heading">Get In Touch</h1>
+            <div class="contact__info">
+                <div class="contact__options">
+                    <a href="mailto:iampiyushnagpal@gmail.com"><i class='far fa-envelope'></i></a>
+                    <a href="https://github.com/iamPiyushNagpal"><i class='fab fa-github'></i></a>
+                    <a href="https://www.facebook.com/iamPiyushNagpal"><i class='fab fa-facebook-f'></i></a>
+                    <a href="https://www.instagram.com/iampiyushnagpal/"><i class='fab fa-instagram'></i></a>
+                    <a href="https://t.me/Piyush_Nagpal"><i class='fab fa-telegram-plane'></i></a>
+                </div>
+                <div class="contact__image">
+                    <img src="images/contact__image.svg" alt="Contact">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h1 class="creator">Designed With <i class='fa fa-heart'></i> By <a href="#">Piyush Nagpal</a></h1>
+    </footer>
+
+    <script src="js/script.js"> </script>
 </body>
 </html>
