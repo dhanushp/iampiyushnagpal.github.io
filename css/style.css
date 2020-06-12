@@ -330,6 +330,14 @@ nav.expanded .hamburger svg .open{
   padding: 0 0.7rem;
 }
 
+.contact__options a:active{
+  outline: none;
+}
+
+.contact__options a:focus{
+  outline: none;
+}
+
 .contact__image img{
   display: none;
 }
