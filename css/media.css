@@ -208,6 +208,10 @@
 
   /* Projects Section */
 
+  .projects{
+    padding: 5rem 0;
+  }
+
   .cards__container {
     display: grid;
     grid-template-columns: auto auto auto auto;
