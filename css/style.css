@@ -400,3 +400,11 @@ footer {
   transition: all 0.8s;
   transform: scale(1.5);
 }
+
+.creator a:focus {
+  outline: none;
+}
+
+.creator a:active {
+  outline: none;
+}
