@@ -197,6 +197,10 @@
   background-color: white;
 }
 
+.scroll__top__btn::-moz-focus-inner { 
+  border: 0; 
+}
+
 .scroll__top__btn:active{
   outline: none;
 }
