@@ -179,7 +179,6 @@
   /* Scroll to Top button */
 
 .scroll__top__btn{
-  display: none;
   border: none;
   background-color: white;
   position: fixed;
@@ -266,12 +265,14 @@
     font-size: 1.6rem;
     text-align: center;
   }
+}
 
 /* Scroll to Top button */
 
-.scroll__top__btn{
-  right: 70px;
-  font-size: 2.3rem;
-}
+@media (max-width: 992px) {
 
+  .scroll__top__btn {
+    display: none !important;
+  }
+  
 }
